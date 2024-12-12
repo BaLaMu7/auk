@@ -1,9 +1,11 @@
 class Auction:
+    
     def init(self):
         self.menu = Auction
         self.kartina = None
 
-class App:      
+class App:
+    
     def init(self, App):
         self.App = App
             
@@ -20,6 +22,7 @@ class App:
         print("Ставка повышена")
 
 class Auction_pay:
+    
     def init(self, Auction_pay):
         print("Ставка выйграна")
 
@@ -27,6 +30,7 @@ class Auction_pay:
         print("Получение оплаты")
     
 class user:
+    
     def init(self, user):
         self.user = user
 
@@ -39,7 +43,7 @@ class user:
     def place_an_kartina(self):
         print("Выбор картины")
 
-    def delait_stavku(self):
+    def delaet_stavku(self):
         print("Делает ставку")
 
     def proverka(self):
@@ -47,12 +51,15 @@ class user:
 
 
 class pay:
+    
     def init(self, dengi):
         self.platesh = dengi
+        
     def printplatesh(self):
         print(self.platesh)
 
 class oplata(pay):
+    
     def init(self, dengi):
         super().init(dengi)
 
